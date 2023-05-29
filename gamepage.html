@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivinhe o Número</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="gamepage.js"></script>
+</head>
+<body>
+<center>
+<div class="container">
+
+	<div class="login_div">
+
+        <h1 id="h1gp">Adivinhe o Número
+            <sup>
+                <img id="logo" src="q.gif">
+                </sup>
+        </h1>
+  
+        <p id="pgp">Selecionamos um número entre 1 e 10. Tente adivinhá-lo.</p>
+          
+        <div>
+            <label for="guessField" id="lbgp">Insira sua resposta: </label>
+            <br>
+            <input type="text" class="guessField" id="guessField">
+            </div>
+        </br>
+        <button type="submit" onclick="submit()" id="gpsend"> Enviar </button>
+                  
+        <button onclick="playAgain()" id="pAgp"> Jogar Novamente </button>
+
+        </div>
+
+	</div>
+
+</div>
+<center>
+    <div class="copy-right-footer">
+        Devoloped by Luis Felipe Colenghi
+    </div>
+</center>
+</body>
+</html>

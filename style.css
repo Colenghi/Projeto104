@@ -1,0 +1,99 @@
+body
+{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width:40%;
+    display: grid;
+    place-content: center;
+    margin-left: 23%; 
+    margin-right: auto;
+    font-family: 'Satisfy', cursive;
+    color:black;
+}
+
+#logo
+{
+    width: 20px;
+    opacity:40%;
+}
+
+.login_div
+{
+    text-align: center;
+    margin:10%;
+	background: rgba(189, 222, 231, 0.95);
+    float: none;
+    border-radius: 15px;
+    padding: 20px; 
+    width:100%;
+    height: 88%;
+    opacity: 73%; 
+
+}
+
+.container
+{
+    width: 130%;
+}
+#login
+{
+    background-image: linear-gradient(to bottom, rgb(119, 198, 224),rgb(147, 206, 225),rgb(147, 206, 225),rgb(102, 194, 225),rgb(102, 194, 225));
+    height:32px;
+    width:67px;
+    border-radius: 6px;
+}
+#playername
+{
+    border-radius: 11px;
+    background-color: lightsteelblue;
+
+    
+}
+#h1gp{
+    font-family: 'Just Another Hand', cursive;
+
+}
+#pAgp
+{
+    font-family: 'Just Another Hand', cursive;
+    width:29%;
+    height:31px;
+    font-size:20px;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom, #9279ba, #b9a5e2, #9279ba,#bca4e3,#745e96);
+}
+#gpsend{
+    font-family: 'Just Another Hand', cursive;
+    width: 13%;
+    height: 31px;
+    font-size:20px;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom, #e3242b, orange, #ed3837,#fb9922,#D21404);
+}
+#lbgp{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 22px;
+}
+#pgp{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 22px;
+}
+#guessField
+{
+    font-family: 'Caveat', cursive;
+    width: 130px;
+}
+.copy-right-footer{
+  position:fixed;
+  bottom:0;
+  width:20%;
+  height:22px;
+  text-align:center;
+  border-radius: 20px;
+  font-size:17px;
+  background-image: linear-gradient(to right top, #e3242b, orange, #ed3837,#fb9922,#D21404);
+  font-family:'Just Another Hand', cursive;
+  color:white;
+}
